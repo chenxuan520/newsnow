@@ -1,35 +1,23 @@
-import type { NewsItem } from "@shared/types"
-import { load } from "cheerio"
+interface Res {
+  data: {
+    itemId: string
+    templateMaterial: {
+      widgetTitle: string
+    }
+  }[]
+}
 
-const quick = defineSource(async () => {
-  const baseURL = "https://www.36kr.com"
-  const url = `${baseURL}/newsflashes`
-  const response = await myFetch(url) as any
-  const $ = load(response)
-  const news: NewsItem[] = []
-  const $items = $(".newsflash-item")
-  $items.each((_, el) => {
-    const $el = $(el)
-    const $a = $el.find("a.item-title")
-    const url = $a.attr("href")
-    const title = $a.text()
-    const relativeDate = $el.find(".time").text()
-    if (url && title && relativeDate) {
-      news.push({
-        url: `${baseURL}${url}`,
-        title,
-        id: url,
-        extra: {
-          date: parseRelativeDate(relativeDate, "Asia/Shanghai").valueOf(),
-        },
-      })
+export default defineSource(async () => {
+  console.log(1234)
+  const url = `https://api.iyuns.com/api/hot36kr`
+  const res: Res = await myFetch(url)
+  console.log(res)
+  return res.data.map((k) => {
+    const url = `https://www.36kr.com/p/${k.itemId}`
+    return {
+      id: `36kr-${k.itemId}`,
+      title: k.templateMaterial.widgetTitle,
+      url,
     }
   })
-
-  return news
-})
-
-export default defineSource({
-  "36kr": quick,
-  "36kr-quick": quick,
 })

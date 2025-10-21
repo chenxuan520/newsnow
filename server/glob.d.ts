@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-declare module 'glob:./sources/{*.ts,**/index.ts}' {
+declare module 'glob:./sources/{_*.ts,*.ts,**/index.ts}' {
   export const _36kr: typeof import('./sources/_36kr')
   export const baidu: typeof import('./sources/baidu')
   export const bilibili: typeof import('./sources/bilibili')

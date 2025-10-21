@@ -34,25 +34,12 @@
     "interval": 1800000
   },
   "36kr": {
-    "redirect": "36kr-quick",
     "name": "36氪",
-    "type": "realtime",
-    "disable": "cf",
+    "type": "hottest",
     "column": "tech",
     "home": "https://36kr.com",
     "color": "blue",
-    "interval": 600000,
-    "title": "快讯"
-  },
-  "36kr-quick": {
-    "name": "36氪",
-    "type": "realtime",
-    "disable": "cf",
-    "column": "tech",
-    "home": "https://36kr.com",
-    "color": "blue",
-    "interval": 600000,
-    "title": "快讯"
+    "interval": 600000
   },
   "toutiao": {
     "name": "今日头条",

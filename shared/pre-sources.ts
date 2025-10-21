@@ -42,17 +42,12 @@ export const originSources = {
   },
   "36kr": {
     name: "36氪",
-    type: "realtime",
+    type: "hottest",
     color: "blue",
     // cloudflare pages cannot access
-    disable: "cf",
+    // disable: "cf",
     home: "https://36kr.com",
     column: "tech",
-    sub: {
-      quick: {
-        title: "快讯",
-      },
-    },
   },
   "toutiao": {
     name: "今日头条",
