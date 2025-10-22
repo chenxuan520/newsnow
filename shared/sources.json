@@ -33,14 +33,6 @@
     "color": "red",
     "interval": 1800000
   },
-  "36kr": {
-    "name": "36氪",
-    "type": "hottest",
-    "column": "tech",
-    "home": "https://36kr.com",
-    "color": "orange",
-    "interval": 600000
-  },
   "github": {
     "redirect": "github-trending-today",
     "name": "Github",
@@ -60,6 +52,14 @@
     "interval": 600000,
     "title": "Today"
   },
+  "36kr": {
+    "name": "36氪",
+    "type": "hottest",
+    "column": "tech",
+    "home": "https://36kr.com",
+    "color": "orange",
+    "interval": 600000
+  },
   "qbitai": {
     "name": "量子位",
     "type": "hottest",
@@ -73,7 +73,7 @@
     "type": "hottest",
     "column": "china",
     "home": "https://m.huxiu.com/",
-    "color": "blue",
+    "color": "green",
     "interval": 600000
   },
   "juejin": {

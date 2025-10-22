@@ -40,15 +40,6 @@ export const originSources = {
     desc: "来自第三方网站: 早晨报",
     home: "https://www.zaobao.com",
   },
-  "36kr": {
-    name: "36氪",
-    type: "hottest",
-    color: "orange",
-    // cloudflare pages cannot access
-    // disable: "cf",
-    home: "https://36kr.com",
-    column: "tech",
-  },
   "github": {
     name: "Github",
     color: "gray",
@@ -60,6 +51,15 @@ export const originSources = {
         type: "hottest",
       },
     },
+  },
+  "36kr": {
+    name: "36氪",
+    type: "hottest",
+    color: "orange",
+    // cloudflare pages cannot access
+    // disable: "cf",
+    home: "https://36kr.com",
+    column: "tech",
   },
   "qbitai": {
     name: "量子位",
@@ -73,7 +73,7 @@ export const originSources = {
     home: "https://m.huxiu.com/",
     column: "china",
     type: "hottest",
-    color: "blue",
+    color: "green",
   },
   "juejin": {
     name: "稀土掘金",
