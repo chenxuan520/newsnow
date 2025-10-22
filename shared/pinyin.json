@@ -3,12 +3,14 @@
   "zhihu": "zhihu",
   "zaobao": "lianhezaobao",
   "36kr": "36ke",
-  "toutiao": "jinritoutiao",
   "github-trending-today": "Github-Today",
+  "qbitai": "liangziwei",
+  "huxiu": "huxiu",
   "juejin": "xitujuejin",
   "ithome": "ITzhijia",
   "ifeng": "fenghuangwang-redianzixun",
   "thepaper": "pengpaixinwen-rebang",
+  "toutiao": "jinritoutiao",
   "weibo": "weibo-shishiresou",
   "hackernews": "Hacker News",
   "douyin": "douyin",
@@ -36,6 +38,5 @@
   "coolapk": "kuan-jinrizuire",
   "chongbuluo-latest": "chongbuluo-zuixin",
   "chongbuluo-hot": "chongbuluo-zuire",
-  "producthunt": "Product Hunt",
   "xueqiu-hotstock": "xueqiu-remengupiao"
 }

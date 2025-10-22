@@ -43,18 +43,11 @@ export const originSources = {
   "36kr": {
     name: "36氪",
     type: "hottest",
-    color: "blue",
+    color: "orange",
     // cloudflare pages cannot access
     // disable: "cf",
     home: "https://36kr.com",
     column: "tech",
-  },
-  "toutiao": {
-    name: "今日头条",
-    type: "hottest",
-    column: "china",
-    color: "red",
-    home: "https://www.toutiao.com",
   },
   "github": {
     name: "Github",
@@ -67,6 +60,20 @@ export const originSources = {
         type: "hottest",
       },
     },
+  },
+  "qbitai": {
+    name: "量子位",
+    home: "https://www.qbitai.com",
+    column: "china",
+    type: "hottest",
+    color: "red",
+  },
+  "huxiu": {
+    name: "虎嗅",
+    home: "https://m.huxiu.com/",
+    column: "china",
+    type: "hottest",
+    color: "blue",
   },
   "juejin": {
     name: "稀土掘金",
@@ -98,6 +105,13 @@ export const originSources = {
     title: "热榜",
     color: "gray",
     home: "https://www.thepaper.cn",
+  },
+  "toutiao": {
+    name: "今日头条",
+    type: "hottest",
+    column: "china",
+    color: "red",
+    home: "https://www.toutiao.com",
   },
   "weibo": {
     name: "微博",
@@ -347,7 +361,7 @@ export const originSources = {
     column: "china",
     title: "主干道热帖",
     type: "hottest",
-    color: "red",
+    color: "green",
   },
   "coolapk": {
     name: "酷安",
@@ -380,6 +394,7 @@ export const originSources = {
     name: "Product Hunt",
     color: "red",
     column: "tech",
+    disable: true,
     type: "hottest",
     home: "https://www.producthunt.com/",
   },

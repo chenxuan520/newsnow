@@ -38,15 +38,7 @@
     "type": "hottest",
     "column": "tech",
     "home": "https://36kr.com",
-    "color": "blue",
-    "interval": 600000
-  },
-  "toutiao": {
-    "name": "今日头条",
-    "type": "hottest",
-    "column": "china",
-    "home": "https://www.toutiao.com",
-    "color": "red",
+    "color": "orange",
     "interval": 600000
   },
   "github": {
@@ -67,6 +59,22 @@
     "color": "gray",
     "interval": 600000,
     "title": "Today"
+  },
+  "qbitai": {
+    "name": "量子位",
+    "type": "hottest",
+    "column": "china",
+    "home": "https://www.qbitai.com",
+    "color": "red",
+    "interval": 600000
+  },
+  "huxiu": {
+    "name": "虎嗅",
+    "type": "hottest",
+    "column": "china",
+    "home": "https://m.huxiu.com/",
+    "color": "blue",
+    "interval": 600000
   },
   "juejin": {
     "name": "稀土掘金",
@@ -101,6 +109,14 @@
     "home": "https://www.thepaper.cn",
     "color": "gray",
     "interval": 1800000
+  },
+  "toutiao": {
+    "name": "今日头条",
+    "type": "hottest",
+    "column": "china",
+    "home": "https://www.toutiao.com",
+    "color": "red",
+    "interval": 600000
   },
   "weibo": {
     "title": "实时热搜",
@@ -327,7 +343,7 @@
     "type": "hottest",
     "column": "china",
     "home": "https://hupu.com",
-    "color": "red",
+    "color": "green",
     "interval": 600000
   },
   "coolapk": {
@@ -364,14 +380,6 @@
     "color": "green",
     "interval": 1800000,
     "title": "最热"
-  },
-  "producthunt": {
-    "name": "Product Hunt",
-    "type": "hottest",
-    "column": "tech",
-    "home": "https://www.producthunt.com/",
-    "color": "red",
-    "interval": 600000
   },
   "xueqiu": {
     "redirect": "xueqiu-hotstock",
