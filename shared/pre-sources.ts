@@ -17,12 +17,27 @@ export const originSources = {
     name: "V2EX",
     color: "slate",
     home: "https://v2ex.com/",
+    type: "realtime",
     sub: {
       share: {
         title: "最新分享",
         column: "tech",
       },
     },
+  },
+  "bbc": {
+    name: "BBC",
+    // type: "hottest",
+    column: "world",
+    color: "teal",
+    home: "https://www.bbc.com",
+  },
+  "faxinshe": {
+    name: "法新社",
+    // type: "hottest",
+    column: "world",
+    color: "teal",
+    home: "https://www.rfi.fr",
   },
   "zhihu": {
     name: "知乎",
@@ -198,6 +213,7 @@ export const originSources = {
     name: "Solidot",
     color: "teal",
     column: "tech",
+    type: "realtime",
     home: "https://solidot.org",
     interval: Time.Slow,
   },

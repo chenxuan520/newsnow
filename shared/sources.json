@@ -2,6 +2,7 @@
   "v2ex": {
     "redirect": "v2ex-share",
     "name": "V2EX",
+    "type": "realtime",
     "column": "tech",
     "home": "https://v2ex.com/",
     "color": "slate",
@@ -10,11 +11,27 @@
   },
   "v2ex-share": {
     "name": "V2EX",
+    "type": "realtime",
     "column": "tech",
     "home": "https://v2ex.com/",
     "color": "slate",
     "interval": 600000,
     "title": "最新分享"
+  },
+  "bbc": {
+    "name": "BBC",
+    "column": "world",
+    "home": "https://www.bbc.com",
+    "color": "teal",
+    "interval": 600000
+  },
+  "faxinshe": {
+    "name": "法新社",
+    "type": "hottest",
+    "column": "world",
+    "home": "https://www.rfi.fr",
+    "color": "teal",
+    "interval": 600000
   },
   "zhihu": {
     "name": "知乎",
@@ -195,6 +212,7 @@
   },
   "solidot": {
     "name": "Solidot",
+    "type": "realtime",
     "column": "tech",
     "home": "https://solidot.org",
     "color": "teal",
