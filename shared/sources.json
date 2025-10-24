@@ -20,6 +20,7 @@
   },
   "bbc": {
     "name": "BBC",
+    "type": "hottest",
     "column": "world",
     "home": "https://www.bbc.com",
     "color": "teal",
@@ -27,10 +28,25 @@
   },
   "faxinshe": {
     "name": "法新社",
-    "type": "hottest",
     "column": "world",
     "home": "https://www.rfi.fr",
     "color": "teal",
+    "interval": 600000
+  },
+  "cna": {
+    "name": "台湾通讯社",
+    "type": "hottest",
+    "column": "world",
+    "home": "https://www.cna.com.tw/",
+    "color": "blue",
+    "interval": 600000
+  },
+  "nyt": {
+    "name": "纽约时报",
+    "type": "hottest",
+    "column": "world",
+    "home": "https://m.cn.nytimes.com/",
+    "color": "gray",
     "interval": 600000
   },
   "zhihu": {

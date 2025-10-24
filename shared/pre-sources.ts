@@ -27,7 +27,7 @@ export const originSources = {
   },
   "bbc": {
     name: "BBC",
-    // type: "hottest",
+    type: "hottest",
     column: "world",
     color: "teal",
     home: "https://www.bbc.com",
@@ -38,6 +38,20 @@ export const originSources = {
     column: "world",
     color: "teal",
     home: "https://www.rfi.fr",
+  },
+  "cna": {
+    name: "台湾通讯社",
+    home: "https://www.cna.com.tw/",
+    column: "world",
+    type: "hottest",
+    color: "blue",
+  },
+  "nyt": {
+    name: "纽约时报",
+    home: "https://m.cn.nytimes.com/",
+    column: "world",
+    type: "hottest",
+    color: "gray",
   },
   "zhihu": {
     name: "知乎",
