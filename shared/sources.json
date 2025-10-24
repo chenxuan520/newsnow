@@ -18,37 +18,6 @@
     "interval": 600000,
     "title": "最新分享"
   },
-  "bbc": {
-    "name": "BBC",
-    "type": "hottest",
-    "column": "world",
-    "home": "https://www.bbc.com",
-    "color": "teal",
-    "interval": 600000
-  },
-  "faxinshe": {
-    "name": "法新社",
-    "column": "world",
-    "home": "https://www.rfi.fr",
-    "color": "teal",
-    "interval": 600000
-  },
-  "cna": {
-    "name": "台湾通讯社",
-    "type": "hottest",
-    "column": "world",
-    "home": "https://www.cna.com.tw/",
-    "color": "blue",
-    "interval": 600000
-  },
-  "nyt": {
-    "name": "纽约时报",
-    "type": "hottest",
-    "column": "world",
-    "home": "https://m.cn.nytimes.com/",
-    "color": "gray",
-    "interval": 600000
-  },
   "zhihu": {
     "name": "知乎",
     "type": "hottest",
@@ -107,6 +76,30 @@
     "column": "china",
     "home": "https://m.huxiu.com/",
     "color": "green",
+    "interval": 600000
+  },
+  "bbc": {
+    "name": "BBC",
+    "type": "hottest",
+    "column": "world",
+    "home": "https://www.bbc.com",
+    "color": "teal",
+    "interval": 600000
+  },
+  "cna": {
+    "name": "台湾通讯社",
+    "type": "hottest",
+    "column": "world",
+    "home": "https://www.cna.com.tw/",
+    "color": "blue",
+    "interval": 600000
+  },
+  "nyt": {
+    "name": "纽约时报",
+    "type": "hottest",
+    "column": "world",
+    "home": "https://m.cn.nytimes.com/",
+    "color": "gray",
     "interval": 600000
   },
   "juejin": {
