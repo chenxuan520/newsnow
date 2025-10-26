@@ -41,6 +41,21 @@ export const originSources = {
     desc: "来自第三方网站: 早晨报",
     home: "https://www.zaobao.com",
   },
+  "cnblogs": {
+    name: "博客园",
+    type: "hottest",
+    column: "tech",
+    home: "https://www.cnblogs.com/pick/",
+    color: "green",
+    interval: Time.Default,
+  },
+  "juejin": {
+    name: "稀土掘金",
+    column: "tech",
+    color: "blue",
+    type: "hottest",
+    home: "https://juejin.cn",
+  },
   "github": {
     name: "Github",
     color: "gray",
@@ -76,6 +91,13 @@ export const originSources = {
     type: "hottest",
     color: "green",
   },
+  "cna": {
+    name: "台湾通讯社",
+    home: "https://www.cna.com.tw/",
+    column: "world",
+    type: "hottest",
+    color: "blue",
+  },
   "bbc": {
     name: "BBC",
     type: "hottest",
@@ -91,26 +113,12 @@ export const originSources = {
     disable: true,
     home: "https://www.rfi.fr",
   },
-  "cna": {
-    name: "台湾通讯社",
-    home: "https://www.cna.com.tw/",
-    column: "world",
-    type: "hottest",
-    color: "blue",
-  },
   "nyt": {
     name: "纽约时报",
     home: "https://m.cn.nytimes.com/",
     column: "world",
     type: "hottest",
     color: "gray",
-  },
-  "juejin": {
-    name: "稀土掘金",
-    column: "tech",
-    color: "blue",
-    type: "hottest",
-    home: "https://juejin.cn",
   },
   "ithome": {
     name: "IT之家",

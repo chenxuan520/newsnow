@@ -35,6 +35,22 @@
     "color": "red",
     "interval": 1800000
   },
+  "cnblogs": {
+    "name": "博客园",
+    "type": "hottest",
+    "column": "tech",
+    "home": "https://www.cnblogs.com/pick/",
+    "color": "green",
+    "interval": 600000
+  },
+  "juejin": {
+    "name": "稀土掘金",
+    "type": "hottest",
+    "column": "tech",
+    "home": "https://juejin.cn",
+    "color": "blue",
+    "interval": 600000
+  },
   "github": {
     "redirect": "github-trending-today",
     "name": "Github",
@@ -78,14 +94,6 @@
     "color": "green",
     "interval": 600000
   },
-  "bbc": {
-    "name": "BBC",
-    "type": "hottest",
-    "column": "world",
-    "home": "https://www.bbc.com",
-    "color": "teal",
-    "interval": 600000
-  },
   "cna": {
     "name": "台湾通讯社",
     "type": "hottest",
@@ -94,20 +102,20 @@
     "color": "blue",
     "interval": 600000
   },
+  "bbc": {
+    "name": "BBC",
+    "type": "hottest",
+    "column": "world",
+    "home": "https://www.bbc.com",
+    "color": "teal",
+    "interval": 600000
+  },
   "nyt": {
     "name": "纽约时报",
     "type": "hottest",
     "column": "world",
     "home": "https://m.cn.nytimes.com/",
     "color": "gray",
-    "interval": 600000
-  },
-  "juejin": {
-    "name": "稀土掘金",
-    "type": "hottest",
-    "column": "tech",
-    "home": "https://juejin.cn",
-    "color": "blue",
     "interval": 600000
   },
   "ithome": {
