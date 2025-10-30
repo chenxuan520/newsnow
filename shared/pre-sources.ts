@@ -41,11 +41,11 @@ export const originSources = {
     desc: "来自第三方网站: 早晨报",
     home: "https://www.zaobao.com",
   },
-  "cnblogs": {
-    name: "博客园",
+  "infoq": {
+    name: "InfoQ",
     type: "hottest",
     column: "tech",
-    home: "https://www.cnblogs.com/pick/",
+    home: "https://www.infoq.cn/",
     color: "green",
     interval: Time.Default,
   },
@@ -91,12 +91,13 @@ export const originSources = {
     type: "hottest",
     color: "green",
   },
-  "cna": {
-    name: "台湾通讯社",
-    home: "https://www.cna.com.tw/",
-    column: "world",
+  "cnblogs": {
+    name: "博客园",
     type: "hottest",
-    color: "blue",
+    column: "tech",
+    home: "https://www.cnblogs.com/pick/",
+    color: "green",
+    interval: Time.Default,
   },
   "bbc": {
     name: "BBC",
@@ -104,6 +105,13 @@ export const originSources = {
     column: "world",
     color: "teal",
     home: "https://www.bbc.com",
+  },
+  "cna": {
+    name: "台湾通讯社",
+    home: "https://www.cna.com.tw/",
+    column: "world",
+    type: "hottest",
+    color: "blue",
   },
   "faxinshe": {
     name: "法新社",
@@ -126,6 +134,13 @@ export const originSources = {
     column: "tech",
     type: "realtime",
     home: "https://www.ithome.com",
+  },
+  "thehackernews": {
+    name: "TheHacker",
+    column: "world",
+    color: "yellow",
+    type: "hottest",
+    home: "https://thehackernews.com/",
   },
   "ifeng": {
     name: "凤凰网",

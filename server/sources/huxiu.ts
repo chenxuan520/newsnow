@@ -47,18 +47,8 @@ export default defineSource(async () => {
       body: requestBody,
     })
 
-    // Log the raw string to confirm
-    console.log("--- Received raw string from myFetch ---")
-    console.log(rawResponseString)
-    console.log("----------------------------------------")
-
     // CRITICAL FIX: Parse the JSON string into a JavaScript object
     parsedResponse = JSON.parse(rawResponseString)
-
-    // Log the parsed object for verification
-    console.log("--- Successfully parsed JSON object ---")
-    console.log(JSON.stringify(parsedResponse, null, 2)) // Use pretty print for object
-    console.log("---------------------------------------")
   } catch (error: any) {
     console.error("Error during myFetch call or JSON parsing:", error)
     throw new Error(`Failed to fetch or parse Huxiu data from API: ${error.message || String(error)}`)
@@ -77,8 +67,6 @@ export default defineSource(async () => {
     console.error("API specific error: parsedResponse.data.datalist is not an array or is empty", parsedResponse)
     throw new Error("Huxiu API returned no \"datalist\" or an empty \"datalist\" array.")
   }
-
-  console.log("Huxiu data successfully fetched, parsed, and validated.")
 
   return parsedResponse.data.datalist.map((item) => {
     return {

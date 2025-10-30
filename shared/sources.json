@@ -35,11 +35,11 @@
     "color": "red",
     "interval": 1800000
   },
-  "cnblogs": {
-    "name": "博客园",
+  "infoq": {
+    "name": "InfoQ",
     "type": "hottest",
     "column": "tech",
-    "home": "https://www.cnblogs.com/pick/",
+    "home": "https://www.infoq.cn/",
     "color": "green",
     "interval": 600000
   },
@@ -94,12 +94,12 @@
     "color": "green",
     "interval": 600000
   },
-  "cna": {
-    "name": "台湾通讯社",
+  "cnblogs": {
+    "name": "博客园",
     "type": "hottest",
-    "column": "world",
-    "home": "https://www.cna.com.tw/",
-    "color": "blue",
+    "column": "tech",
+    "home": "https://www.cnblogs.com/pick/",
+    "color": "green",
     "interval": 600000
   },
   "bbc": {
@@ -108,6 +108,14 @@
     "column": "world",
     "home": "https://www.bbc.com",
     "color": "teal",
+    "interval": 600000
+  },
+  "cna": {
+    "name": "台湾通讯社",
+    "type": "hottest",
+    "column": "world",
+    "home": "https://www.cna.com.tw/",
+    "color": "blue",
     "interval": 600000
   },
   "nyt": {
@@ -124,6 +132,14 @@
     "column": "tech",
     "home": "https://www.ithome.com",
     "color": "red",
+    "interval": 600000
+  },
+  "thehackernews": {
+    "name": "TheHacker",
+    "type": "hottest",
+    "column": "world",
+    "home": "https://thehackernews.com/",
+    "color": "yellow",
     "interval": 600000
   },
   "ifeng": {
