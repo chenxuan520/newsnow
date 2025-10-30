@@ -47,6 +47,7 @@ export const originSources = {
     column: "tech",
     home: "https://www.infoq.cn/",
     color: "green",
+    disable: "cf",
     interval: Time.Default,
   },
   "juejin": {

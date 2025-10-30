@@ -38,6 +38,7 @@
   "infoq": {
     "name": "InfoQ",
     "type": "hottest",
+    "disable": "cf",
     "column": "tech",
     "home": "https://www.infoq.cn/",
     "color": "green",
