@@ -92,14 +92,6 @@ export const originSources = {
     type: "hottest",
     color: "green",
   },
-  "cnblogs": {
-    name: "博客园",
-    type: "hottest",
-    column: "tech",
-    home: "https://www.cnblogs.com/pick/",
-    color: "green",
-    interval: Time.Default,
-  },
   "bbc": {
     name: "BBC",
     type: "hottest",
@@ -142,6 +134,14 @@ export const originSources = {
     color: "yellow",
     type: "hottest",
     home: "https://thehackernews.com/",
+  },
+  "cnblogs": {
+    name: "博客园",
+    type: "hottest",
+    column: "tech",
+    home: "https://www.cnblogs.com/pick/",
+    color: "green",
+    interval: Time.Default,
   },
   "ifeng": {
     name: "凤凰网",

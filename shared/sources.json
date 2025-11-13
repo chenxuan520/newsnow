@@ -95,14 +95,6 @@
     "color": "green",
     "interval": 600000
   },
-  "cnblogs": {
-    "name": "博客园",
-    "type": "hottest",
-    "column": "tech",
-    "home": "https://www.cnblogs.com/pick/",
-    "color": "green",
-    "interval": 600000
-  },
   "bbc": {
     "name": "BBC",
     "type": "hottest",
@@ -141,6 +133,14 @@
     "column": "world",
     "home": "https://thehackernews.com/",
     "color": "yellow",
+    "interval": 600000
+  },
+  "cnblogs": {
+    "name": "博客园",
+    "type": "hottest",
+    "column": "tech",
+    "home": "https://www.cnblogs.com/pick/",
+    "color": "green",
     "interval": 600000
   },
   "ifeng": {
